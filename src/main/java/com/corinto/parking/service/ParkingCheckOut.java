@@ -1,9 +1,9 @@
-package one.digitalinnovation.parking.service;
+package com.corinto.parking.service;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
-import one.digitalinnovation.parking.model.Parking;
+import com.corinto.parking.model.Parking;
 
 public class ParkingCheckOut {
 

@@ -19,6 +19,9 @@ import com.corinto.parking.controller.mapper.ParkingMapper;
 import com.corinto.parking.model.Parking;
 import com.corinto.parking.service.ParkingService;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
 
 
 @RestController

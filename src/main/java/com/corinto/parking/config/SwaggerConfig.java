@@ -25,7 +25,7 @@ public class SwaggerConfig {
     public Docket getDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("one.digitalinnovation.parking"))
+                .apis(RequestHandlerSelectors.basePackage("com.corinto.parking"))
                 .build()
                 .apiInfo(metaData())
                 .securityContexts(Arrays.asList(getSecurityContext()))
